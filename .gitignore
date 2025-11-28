@@ -1,0 +1,15 @@
+# Mac OS system files
+.DS_Store
+
+# Python compilation cache
+__pycache__/
+*.pyc
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# The virtual environment (if you create one later)
+venv/
+.env

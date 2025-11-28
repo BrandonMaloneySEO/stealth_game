@@ -1,0 +1,66 @@
+[
+  {
+    "prompt": "You drop from the ceiling. The artifact is ahead, but a guard is coming.",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 2 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 0 }
+    ]
+  },
+  {
+    "prompt": "The guard walks into the corridor. He hasn't seen you yet.",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 4 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 1 }
+    ]
+  },
+  {
+    "prompt": "The guard moves toward the artifact, checking exhibits.",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 4 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 1 }
+    ]
+  },
+  {
+    "prompt": "The guard stops to admire an exhibit.",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 4 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 1 }
+    ]
+  },
+  {
+    "prompt": "The guard sneezes and knocks over a vase!",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 4 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 1 }
+    ]
+  },
+  {
+    "prompt": "The guard blames the broken vase on a clumsy guest.",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 4 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 1 }
+    ]
+  },
+  {
+    "prompt": "You are one step away. The security mechanism is active.",
+    "options": [
+      { "text": "Walk down the corridor", "player_points": 4, "guard_points": 4 },
+      { "text": "Hide behind nearby exhibit", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak in the shadows", "player_points": 2, "guard_points": 1 }
+    ]
+  },
+  {
+    "prompt": "The mechanism disengages! The artifact is exposed.",
+    "options": [
+      { "text": "Run up to the artifact", "player_points": 4, "guard_points": 6 },
+      { "text": "Hide behind the artifact", "player_points": 0, "guard_points": 0 },
+      { "text": "Sneak up to grab the artifact", "player_points": 8, "guard_points": 3 }
+    ]
+  }
+]
